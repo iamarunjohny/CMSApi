@@ -157,6 +157,8 @@ namespace CMSApi.Controllers
             Response.Cookies.Append("refreshToken", refreshToken, cookieOptions);
         }
 
+
+
         private ClaimsPrincipal GetPrincipalFromExpiredToken(string token)
         {
             var tokenValidationParameters = new TokenValidationParameters
