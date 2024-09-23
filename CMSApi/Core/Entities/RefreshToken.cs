@@ -1,4 +1,4 @@
-﻿namespace CMSApi.Models
+﻿namespace CMSApi.Core.Entities
 {
     public class RefreshToken
     {
@@ -7,5 +7,4 @@
         public DateTime ExpiryDate { get; set; }
         public string Username { get; set; }
     }
-
 }
